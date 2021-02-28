@@ -1,0 +1,12 @@
+//find data by email
+db.Collection('user).find({email:'xyz@gmail.com'})
+
+//to check stats and execution stats
+db.Collection('user).find({email:'xyz@gmail.com'}).explain('executionStats')
+
+//to optimize first query we use index
+db.getCollection('users').createIndex({name:1}) //now it examin only one row
+
+//compound Indeing
+db.getCollection('users').createIndex({gender:1,age:1}) 
+

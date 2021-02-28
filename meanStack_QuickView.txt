@@ -1,0 +1,24 @@
+Strting with Mean Stack application
+
+1.install node
+2.create project directory
+3. 	a)npm init (for creating package.json file hold data of all installes packages)
+	b)npm install express --save (to install express package)
+	c)create index.js file (base backend file)
+	d)install nodemon package
+	e)install mongoose package
+
+4.Create directories within main project directory
+	a)config (contain database cofig files)
+	b)models (manage db queries)
+	c)routes (control requests)
+	d)client(frontend[Angular] for client/admin ...)
+		i)npm install -g @angular/cli
+		ii)ng new client
+		iii)cd client
+		iv)ng serve (run on 4200 default port) or ng serve --port 4401
+	
+5. Other useful package installation
+	a)npm install crypto (creates secret string for secure db)
+
+

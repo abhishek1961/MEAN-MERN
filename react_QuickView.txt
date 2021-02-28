@@ -1,0 +1,29 @@
+Starting with React application
+
+1. npm -g i creat-react-application(install react)
+2. npx create-react-app lcotodo([npx->react command] create react app with name 'lcotodo' )
+
+3. npm install redux react-redus (redux state[data] management tool)
+
+
+
+Some Important commands
+  1.)npm start
+     Starts the development server.
+
+  2.)npm run build
+     Bundles the app into static files for production.
+
+  3.)npm test
+     Starts the test runner.
+
+  4.)npm run eject
+     Removes this tool and copies build dependencies, configuration files
+     and scripts into the app directory. If you do this, you can’t go back!
+
+  5.)We suggest that you begin by typing:
+	 cd loctodo
+	 npm start
+	 
+  6.)keyword "await" //await untill variable sets use with asyn function
+	 ex. const test= awaid data;
